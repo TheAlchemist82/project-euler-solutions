@@ -1,0 +1,20 @@
+This question was also solved mathematically using Euclid's parameterization of the Pythagorean triplets
+
+We know,
+    a = k(m^2 - n^2)
+    b = 2kmn
+    c = k(m^2 + n^2)
+    for m > n > 0, (m, n) = 1 and different parity for m and n.
+
+Substituting into our given condition
+    1000 = a + b + c = 2mk(m + n)
+    500 = km(m + n)
+
+500 has only two distinct prime factors: 500 = 2^2 * 5^3
+and since (m, n) = 1 then (m, m+n) = 1 
+
+Now, one of m and m+n must be 1, 2, 4 and the other must be one of 1, 5, 25, 125
+Because m + n > m, we must have m in {2, 4}, and so m + n < 2m =< 8. Therefore, m + n = 5, and 2m > m + n = 5 implying m >= 3, leaving m = 4.
+So, n = 1, k = 25 and (a, b, c) = (375, 200, 245)
+
+Then a*b*c = 31875000

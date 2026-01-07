@@ -1,0 +1,15 @@
+This problem didn't take any programming, just some common sense
+
+1. The number must be divisible by all prime numbers from 1 to 20
+
+2. The number must be divisible by all the exponents of the primes in the interval
+    Powers of 2 -> 2, 4, 8, 16  
+    Powers of 3 -> 3, 9
+    Powers of 5 -> 5
+
+3. We must be able to make all the other numbers in the interval with the prime factors of the constituent numbers
+
+4. It must be the smallest such number 
+
+This gives us: 2 * 5 * 8 * 9 * 7 * 11 * 13 * 17 * 19 = 232792560
+
