@@ -1,0 +1,7 @@
+This problem was solved using combinatorics
+
+The Right and Down movements can be seen as an increase in the x and y directions.
+
+The total number of "points" visited in both directions will be 40, 20 in x and 20 in y.
+
+This makes the problem rather trivial, forming the equation 40^C_20 = 40!/ 20!^2 = 137846528820
